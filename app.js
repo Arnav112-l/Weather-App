@@ -26,19 +26,19 @@ async function checkWeather(city) {
             weatherIcon.src = '/clouds.png';
             card.style.backgroundImage = `url('cloud.gif')`;
         } else if (data.weather[0].main == 'Clear') {
-            weatherIcon.src = 'images/clear.png';
+            weatherIcon.src = '/clear.png';
             card.style.backgroundImage = `url('clear.gif')`;
         } else if (data.weather[0].main == 'Rain') {
-            weatherIcon.src = 'images/rain.png';
+            weatherIcon.src = '/rain.png';
             card.style.backgroundImage = `url('rain.gif')`;
         } else if (data.weather[0].main == 'Haze') {
-            weatherIcon.src = 'images/mist.png';
+            weatherIcon.src = '/mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         } else if (data.weather[0].main == 'Mist') {
-            weatherIcon.src = 'images/mist.png';
+            weatherIcon.src = '/mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         } else if (data.weather[0].main == 'Smoke') {
-            weatherIcon.src = 'images/mist.png';
+            weatherIcon.src = '/mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         }
         document.querySelector('#weather').style.display = 'block';
