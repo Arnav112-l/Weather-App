@@ -1,4 +1,6 @@
 
+# Weather App
+ 
 1. **City Search:** ✨
 
     - **Easy to Use:** You can easily check the weather for any city by typing the city name in the search box and clicking the search button.
@@ -26,7 +28,7 @@
 6. **Real-time Updates:** ✨
     - **Up-to-date Information:** Each time you search for a city, the app fetches the latest weather data, ensuring you get the most current information available.
 
-### How to Use the App:🚀
+### How to Use the App:
 
 1. **Open the App:** ✨
    Start by opening the weather app on your device.
