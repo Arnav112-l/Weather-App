@@ -23,22 +23,22 @@ async function checkWeather(city) {
             data.main.humidity + ' %';
         document.querySelector('#wind').innerHTML = data.wind.speed + ' km/hr';
         if (data.weather[0].main == 'Clouds') {
-            weatherIcon.src = '/clouds.png';
+            weatherIcon.src = './clouds.png';
             card.style.backgroundImage = `url('cloud.gif')`;
         } else if (data.weather[0].main == 'Clear') {
-            weatherIcon.src = '/clear.png';
+            weatherIcon.src = './clear.png';
             card.style.backgroundImage = `url('clear.gif')`;
         } else if (data.weather[0].main == 'Rain') {
-            weatherIcon.src = '/rain.png';
+            weatherIcon.src = './rain.png';
             card.style.backgroundImage = `url('rain.gif')`;
         } else if (data.weather[0].main == 'Haze') {
-            weatherIcon.src = '/mist.png';
+            weatherIcon.src = './mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         } else if (data.weather[0].main == 'Mist') {
-            weatherIcon.src = '/mist.png';
+            weatherIcon.src = './mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         } else if (data.weather[0].main == 'Smoke') {
-            weatherIcon.src = '/mist.png';
+            weatherIcon.src = './mist.png';
             card.style.backgroundImage = `url('mist.gif')`;
         }
         document.querySelector('#weather').style.display = 'block';
